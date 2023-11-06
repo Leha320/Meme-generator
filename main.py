@@ -54,9 +54,10 @@ while True:
     if ask == "1":
         break
     elif ask == "2":
-        pass
+        continue
     else:
-        break
+        quit(print("Неверный ввод!"))
+    
 
   
    
