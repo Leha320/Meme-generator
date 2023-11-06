@@ -8,7 +8,7 @@ while True:
     if text_type == 1:
         bottom_text = input("Введите нижний текст: ")
         print(bottom_text)
-    if text_type == 2:
+    elif text_type == 2:
         top_text = input("Введите верхний текст: ")
         bottom_text = input("Введите нижний текст: ")
     else:
